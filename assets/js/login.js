@@ -55,7 +55,7 @@ $(function () {
     })
 
     //监听 登录 表单的 提交事件 
-    $('#form_login').on('click', function (e) {
+    $('#form_login').on('submit', function (e) {
         //阻止默认提交行为
         e.preventDefault()
         // e.stopPropagation();
